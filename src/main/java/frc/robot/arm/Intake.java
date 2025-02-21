@@ -18,7 +18,7 @@ public class Intake {
      * @param speed The speed to set the motor to.
      */
     public void setSpeed(double speed) {
-        speed *= 0.6;
+        speed *= 0.8;
         motor.set(speed);
     }
 }

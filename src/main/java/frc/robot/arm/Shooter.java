@@ -31,7 +31,7 @@ public class Shooter {
      * @param speed The speed to set the motors to.
      */
     public void setSpeed(double speed) {
-        speed *= 0.5;
+        speed *= 0.75;
         leftMotor.set(speed);
         rightMotor.set(speed);
     }

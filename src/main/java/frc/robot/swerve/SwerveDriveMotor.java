@@ -60,7 +60,7 @@ public class SwerveDriveMotor {
      */
     double prevError = 0.0;
     public void setTarget(double velocity) {
-        motor.set(velocity / 20);
+        motor.set(velocity / 10);
     }
 
     /** Get the position of the motor's encoder.
