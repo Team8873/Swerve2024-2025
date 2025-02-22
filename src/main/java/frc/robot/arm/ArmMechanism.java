@@ -125,7 +125,7 @@ public class ArmMechanism {
             speed = applySoftStop(speed);
         }
 
-        speed *= 0.3;
+        speed *= 0.6;
         leftMotor.set(speed);
         rightMotor.set(speed);
 
